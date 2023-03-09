@@ -1,0 +1,124 @@
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*fade-in*/
+@keyframes fadein { from {opacity: 0;} to {opacity: 1;} }
+@-moz-keyframes fadein { from {opacity: 0;} to {opacity: 1;} } /*firefox*/
+@-webkit-keyframes fadein { from {opacity: 0;} to {opacity: 1;} } /*chrome or safari*/
+@-o-keyframes fadein { from {opacity: 0;} to {opacity: 1;} } /*opera*/
+
+.header{
+    width: 100%;
+    height: 50px;
+    background-color: #568444;
+    position: relative;
+    z-index: 10000;
+}
+
+.header > .club{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    white-space: nowrap;
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.5rem;
+    font-weight: 100;
+    color: white;
+}
+
+#main{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    opacity: 0;
+    animation: fadein 0.5s ease-in-out forwards;
+    -moz-animation: fadein 0.5s ease-in-out forwards;
+    -webkit-animation: fadein 0.5s ease-in-out forwards;
+    -o-animation: fadein 0.5s ease-in-out forwards;
+    animation-delay: 0.2s;
+}
+
+#main > .title{
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 70px;
+    font-family: 'SEBANG_Gothic_Bold';
+}
+
+#main > .title > p{
+    font-size: 2.5rem;
+    line-height: 2.2rem;
+    margin-bottom: 0.8rem;
+    color: #424242;
+}
+
+#main > .title > h1{
+    font-size: 3.3rem;
+    font-weight: 500;
+    color: #212121;
+}
+
+#main > .title > h1 > span{
+    padding: 0 2px;
+    background: linear-gradient(to top, #568b5d 50%, transparent 50%);
+}
+
+#main > .picture{
+    position: relative;
+    text-align: center;
+    margin: 25px 0;
+}
+
+#main > .picture > img{
+    width: 250px;
+    height: 250px;
+}
+
+#main > .notion{
+    position: relative;
+    white-space: nowrap;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'SEBANG_Gothic_Bold';
+}
+
+#main > .notion > div{
+    margin-bottom: 20px;
+}
+
+#main > .btn{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, 0);
+    text-align: center;
+    margin: 20px 0;
+    border: 1px solid #568b5d;
+    background-color: #eeeeee;
+    color: #568b5d;
+}
+
+#main > .btn > p{
+    margin: 12px 30px;
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.8rem;
+}
+
+#main > .btn:hover{
+    background-color: #568b5d;
+    color: #eeeeee;
+    cursor: pointer;
+}
+
+#sns{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    white-space: nowrap;
+}

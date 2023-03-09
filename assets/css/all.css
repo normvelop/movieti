@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html{
+    font-size: 62.5%;
+    background: #eeeeee;
+}
+
+/*fade-in*/
+@keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} }
+@-moz-keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} } /*firefox*/
+@-webkit-keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} } /*chrome or safari*/
+@-o-keyframes fadeIn { from {opacity: 0;} to {opacity: 1;} } /*opera*/
+
+/*fade-out*/
+@keyframes fadeOut { from {opacity: 1;} to {opacity: 0;} }
+@-moz-keyframes fadeOut { from {opacity: 1;} to {opacity: 0;} } /*firefox*/
+@-webkit-keyframes fadeOut { from {opacity: 1;} to {opacity: 0;} } /*chrome or safari*/
+@-o-keyframes fadeOut { from {opacity: 1;} to {opacity: 0;} } /*opera*/
+
+
+.fadeIn{
+    animation: fadeIn;
+    animation-duration: 0.5s;
+}
+
+.fadeOut{
+    animation: fadeOut;
+    animation-duration: 0.5s;
+}
