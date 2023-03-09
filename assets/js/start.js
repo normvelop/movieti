@@ -22,7 +22,7 @@ function addAnswer(answerText, qIdx){
                 childeren[i].style.display = 'none';
             }
             goNext(++qIdx);
-        },450)
+        },400)
     }, false);
 }
 
