@@ -39,7 +39,7 @@
 .answerBox > .answerList{
     display: block;
     margin: 10px auto;
-    width: 305px;
+    width: 330px;
     height: 43px;    
     font-family: 'SEBANG_Gothic_Bold';
     border: 1px solid #568b5d;
@@ -51,4 +51,17 @@
     background-color: #568b5d;
     color: #eeeeee;
     cursor: pointer;
+}
+
+.status{
+    position: fixed;
+    bottom: 0;
+    height: 10px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+
+.status > .statusBar{
+    height: 100%;
+    background-color: #568444;
 }
