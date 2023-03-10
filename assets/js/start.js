@@ -57,6 +57,9 @@ function setResult(){
     const resultName = document.querySelector('.name');
     resultName.innerHTML = infoList[point].name;
 
+    const resultMoviename = document.querySelector('.moviename');
+    resultMoviename.innerHTML = infoList[point].moviename;
+
     var resultImg = document.createElement('img');
     const imgDiv = document.querySelector('.resultImg');
     var imgURL = './assets/image/image-' + point + '.png';

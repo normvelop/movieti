@@ -24,13 +24,20 @@
 
 .resultname > .nameDesc{
     font-family: 'SEBANG_Gothic_Bold';
-    font-size: 2.5rem;
-    color: #568b5d;
+    font-size: 1.8rem;
+    color: #000000;
 }
 
 .resultname > .name{
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 4.5rem;
+    margin: 7px 0 3px;
+    color: #568444;
+}
+
+.resultname > .moviename{
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.3rem;
     color: #000000;
 }
 
@@ -43,18 +50,18 @@
 .resultImg > img{
     width: 200px;
     height: 200px;
+    border-radius: 30px;
 }
 
 .resultDesc{
     width: 90%;
     margin: 0 auto 25px;
-    padding: 15px 20px;
+    padding: 25px 30px;
     background-color: #568444;
     color: #eeeeee;
-    border-radius: 3%;
+    border-radius: 7px;
     font-family: 'IBMPlexSansKR-Regular';
-    font-weight: 400;
-    font-size: 1.5rem;
+    font-size: 1.35rem;
 }
 
 .recBox{
@@ -63,19 +70,19 @@
     white-space: nowrap;
     background-color: #568444;
     color: #eeeeee;
-    border-radius: 3%;
+    border-radius: 7px;
 }
 
 .recBox > p{
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 1.8rem;
-    padding-top: 10px;
-    margin-left: 15px;
-    color: #f4a460;
+    padding-top: 20px;
+    text-align: center;
+    color: #eeeeee;
 }
 
 .recommend{
-    padding: 15px 20px;
+    padding: 20px;
     text-align: center;
     font-family: 'IBMPlexSansKR-Regular';
     font-weight: 400;
@@ -90,23 +97,21 @@
     display: inline-block;
     margin-right: 5px;
     width: 43.5%;
-    border-radius: 3%;
+    border-radius: 7px;
     background-color: #568444;
     color: #eeeeee;
 }
 
 .matching > .goodMatching > p{
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
     font-family: 'SEBANG_Gothic_Bold';
-    font-size: 1.5rem;
-    color: #f4a460;
+    font-size: 1.3rem;
+    color: #eeeeee;
 }
 
 .matching > .goodMatching > .goodmatnameBox > .goodmatnamedesc{
     text-align: center;
-    padding-top: 5px;
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 1.3rem;
 }
@@ -115,33 +120,34 @@
     text-align: center;
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 1.9rem;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .matching > .goodMatching > .goodmatimg > img{
     width: 130px;
-    padding-bottom: 10px;
+    margin: 13px 0;
+    border-radius: 15px;
 }
 
 .matching > .badMatching{
     display: inline-block;
     width: 43.5%;
-    border-radius: 3%;
+    border-radius: 7px;
     background-color: #568444;
     color: #eeeeee;
 }
 
 .matching > .badMatching > p{
-    text-align: left;
-    padding-top: 5px;
-    padding-left: 10px;
+    text-align: center;
+    padding-top: 20px;
     font-family: 'SEBANG_Gothic_Bold';
-    font-size: 1.5rem;
-    color: #f4a460;
+    font-size: 1.3rem;
+    color: #eeeeee;
 }
 
 .matching > .badMatching > .badmatnameBox > .badmatnamedesc{
     text-align: center;
-    padding-top: 5px;
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 1.3rem;
 }
@@ -150,11 +156,14 @@
     text-align: center;
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 1.9rem;
+    padding-top: 5px;
+    padding-bottom: 20px;
 }
 
 .matching > .badMatching > .badmatimg > img{
     width: 130px;
-    padding-bottom: 10px;
+    margin: 13px 0;
+    border-radius: 15px;
 }
 
 #sns{
