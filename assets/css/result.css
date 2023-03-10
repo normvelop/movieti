@@ -71,6 +71,7 @@
     font-size: 1.8rem;
     padding-top: 10px;
     margin-left: 15px;
+    color: #f4a460;
 }
 
 .recommend{
@@ -100,18 +101,25 @@
     padding-left: 10px;
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 1.5rem;
+    color: #f4a460;
 }
 
-.matching > .goodMatching > .goodmatname{
+.matching > .goodMatching > .goodmatnameBox > .goodmatnamedesc{
     text-align: center;
     padding-top: 5px;
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 1.3rem;
 }
 
+.matching > .goodMatching > .goodmatnameBox > .goodmatname{
+    text-align: center;
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.9rem;
+}
+
 .matching > .goodMatching > .goodmatimg > img{
     width: 130px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 .matching > .badMatching{
@@ -128,18 +136,25 @@
     padding-left: 10px;
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 1.5rem;
+    color: #f4a460;
 }
 
-.matching > .badMatching > .badmatname{
+.matching > .badMatching > .badmatnameBox > .badmatnamedesc{
     text-align: center;
     padding-top: 5px;
     font-family: 'IBMPlexSansKR-Regular';
     font-size: 1.3rem;
 }
 
+.matching > .badMatching > .badmatnameBox > .badmatname{
+    text-align: center;
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.9rem;
+}
+
 .matching > .badMatching > .badmatimg > img{
     width: 130px;
-    padding-bottom: 5px;
+    padding-bottom: 10px;
 }
 
 #sns{

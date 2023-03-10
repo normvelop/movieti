@@ -78,6 +78,9 @@ function setResult(){
     goodmatimg.src = goodimgURL;
     goodimgDiv.appendChild(goodmatimg);
 
+    const goodmatchingnamedesc = document.querySelector('.goodmatnamedesc');
+    goodmatchingnamedesc.innerHTML = infoList[point].gooddesc;
+
     const goodmatname = document.querySelector('.goodmatname');
     goodmatname.innerHTML = infoList[point].good;
 
@@ -88,6 +91,9 @@ function setResult(){
     badmatimg.alt = badimgsrc;
     badmatimg.src = badimgURL;
     badimgDiv.appendChild(badmatimg);
+
+    const badmatchingnamedesc = document.querySelector('.badmatnamedesc');
+    badmatchingnamedesc.innerHTML = infoList[point].baddesc;
 
     const badmatching = document.querySelector('.badmatname');
     badmatching.innerHTML = infoList[point].bad;
