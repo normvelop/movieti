@@ -1,3 +1,151 @@
+@font-face {
+    font-family: 'SEBANG_Gothic_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Bold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'IBMPlexSansKR-Regular';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-07@1.0/IBMPlexSansKR-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
 #result{
     display: none;
+    width: 100%;
+    height: 100vh;
+}
+
+.resultname{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.resultname > .nameDesc{
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 2.5rem;
+    color: #568b5d;
+}
+
+.resultname > .name{
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 4.5rem;
+    color: #000000;
+}
+
+.resultImg{
+    position: relative;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.resultImg > img{
+    width: 200px;
+    height: 200px;
+}
+
+.resultDesc{
+    width: 90%;
+    margin: 0 auto 25px;
+    padding: 15px 20px;
+    background-color: #568444;
+    color: #eeeeee;
+    border-radius: 3%;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.recBox{
+    width: 90%;
+    margin: 0 auto 25px;
+    white-space: nowrap;
+    background-color: #568444;
+    color: #eeeeee;
+    border-radius: 3%;
+}
+
+.recBox > p{
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.8rem;
+    padding-top: 10px;
+    margin-left: 15px;
+}
+
+.recommend{
+    padding: 15px 20px;
+    text-align: center;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.matching{
+    text-align: center;
+}
+
+.matching > .goodMatching{
+    display: inline-block;
+    margin-right: 5px;
+    width: 43.5%;
+    border-radius: 3%;
+    background-color: #568444;
+    color: #eeeeee;
+}
+
+.matching > .goodMatching > p{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.5rem;
+}
+
+.matching > .goodMatching > .goodmatname{
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 1.3rem;
+}
+
+.matching > .goodMatching > .goodmatimg > img{
+    width: 130px;
+    padding-bottom: 5px;
+}
+
+.matching > .badMatching{
+    display: inline-block;
+    width: 43.5%;
+    border-radius: 3%;
+    background-color: #568444;
+    color: #eeeeee;
+}
+
+.matching > .badMatching > p{
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-family: 'SEBANG_Gothic_Bold';
+    font-size: 1.5rem;
+}
+
+.matching > .badMatching > .badmatname{
+    text-align: center;
+    padding-top: 5px;
+    font-family: 'IBMPlexSansKR-Regular';
+    font-size: 1.3rem;
+}
+
+.matching > .badMatching > .badmatimg > img{
+    width: 130px;
+    padding-bottom: 5px;
+}
+
+#sns{
+    position: relative;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    white-space: nowrap;
 }

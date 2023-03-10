@@ -16,7 +16,7 @@
     white-space: nowrap;
     font-family: 'SEBANG_Gothic_Bold';
     font-size: 1rem;
-    margin: 100px 0 60px;
+    padding: 150px 0 60px;
 }
 
 .progress > .number{
@@ -27,8 +27,8 @@
 .qBox{
     text-align: center;
     font-family: 'SEBANG_Gothic_Bold';
-    font-size: 2.3rem;
-    margin: 60px 0;
+    font-size: 2.1rem;
+    margin-bottom: 60px;
     white-space: nowrap;
 }
 

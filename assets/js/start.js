@@ -50,7 +50,11 @@ function calResult() {
 
 function setResult(){
     let point = calResult();
-    const resultName = document.querySelector('.resultname');
+
+    const resultNamedesc = document.querySelector('.nameDesc');
+    resultNamedesc.innerHTML = infoList[point].namedesc;
+
+    const resultName = document.querySelector('.name');
     resultName.innerHTML = infoList[point].name;
 
     var resultImg = document.createElement('img');
@@ -66,10 +70,26 @@ function setResult(){
     const recommend = document.querySelector('.recommend');
     recommend.innerHTML = infoList[point].rec;
 
-    const goodmatching = document.querySelector('.goodMatching');
-    goodmatching.innerHTML = infoList[point].good;
+    var goodmatimg = document.createElement('img');
+    const goodimgDiv = document.querySelector('.goodmatimg');
+    const goodimgsrc = infoList[point].goodimg;
+    var goodimgURL = './assets/image/image-' + goodimgsrc + '.png';
+    goodmatimg.alt = goodimgsrc;
+    goodmatimg.src = goodimgURL;
+    goodimgDiv.appendChild(goodmatimg);
 
-    const badmatching = document.querySelector('.badMatching');
+    const goodmatname = document.querySelector('.goodmatname');
+    goodmatname.innerHTML = infoList[point].good;
+
+    var badmatimg = document.createElement('img');
+    const badimgDiv = document.querySelector('.badmatimg');
+    const badimgsrc = infoList[point].badimg;
+    var badimgURL = './assets/image/image-' + badimgsrc + '.png';
+    badmatimg.alt = badimgsrc;
+    badmatimg.src = badimgURL;
+    badimgDiv.appendChild(badmatimg);
+
+    const badmatching = document.querySelector('.badmatname');
     badmatching.innerHTML = infoList[point].bad;
 
 }
